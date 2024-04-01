@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>grid</title>
+<link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+<style>
+body{
+background-color: rgb(102, 80, 80);
+}
+form{
+background-color: rgba(234, 255, 0, 0.697);
+}
+</style>
+
+</head>
+<body class="container-fluid mt-2">
+<div class="d-flex justify-content-center align-items-center">
+<form class=" border border-4 p-3 w-25 p-5">
+<h2 class="text-black text-center"> Registration form</h2>
+
+<label for="user name" class="form-label">First Name</label>
+<div class="input-group-text"><span class="bi bi-person"></span>
+<input name="user name" class="form-control" type="text">
+</div>
+<label for="user name" class="form-label">Last Name</label>
+<div class="input-group-text"><span class="bi bi-person"></span>
+<input name="user name" class="form-control" type="text">
+</div>
+<label for="user name" class="form-label">Email</label>
+<div class="input-group-text"><span class="bi bi-mailbox"></span>
+<input name="user name" class="form-control" type="email">
+</div>
+<label for="radio" class="form-label">Gender</label>
+<div class="form-control">
+<span><input type="radio" name="radio"> male </span>
+<span><input type="radio" name="radio"> Female</span>
+
+</div>
+<div>
+<label for="phone" class="form-label">Mobile number</label>
+<div class="input-group-text"><span class="bi bi-phone"></span>
+<input type="text" name="phone" pattern="\+91\d{10}" placeholder="+91" class="form-control">
+</div>
+</div>
+<div>
+<label for="state">State</label>
+<div class="input-group-text"><span class="bi bi-globe2"></span>
+<select name="state" class="form-control">
+<option>----select state----</option>
+<option>hyd</option>
+<option>telangana</option>
+<option>Delhi</option>
+<option>Gujrat</option>
+</select>
+</div>
+</div>
+<div>
+<label for="state">City</label>
+<div class="input-group-text"><span class="bi bi-globe"></span>
+<select name="Select city" class="form-control">
+<option>----select city----</option>
+<option>Hyderabad</option>
+<option>Delhi</option>
+<option>telangamna</option>
+<option>cuttack</option>
+</select>
+</div>
+</div>
+<div class="m-2">
+<button class="btn btn-success">Register</button><span> <button class="btn btn-danger"> cancel</button> </span></div>
+</form>
+</div>
+<script src="../../node_modules/jquery/dist/jquery.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

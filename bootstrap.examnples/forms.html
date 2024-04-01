@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bootstrap example</title>
+<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body class="container-fluid mt-2">
+<div>
+    <form class="border">
+        <h2 class="text-centre">register</h2>
+        <div class="mb-3">
+            <lable for="user name" class="form-label">user name</lable>
+            <div>
+                <input name="user name"class="form-control"type="text">
+                <div class="text-danger">user name required</div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <lable class="form-lable"for="password">password</lable>
+            <div>
+                <input name="password"class="form-control"type="password">
+            </div>
+        </div>
+        <div class="mb-3">
+            <lable class="form-lable"for="city">your city</lable>
+            <div>
+                <select name="city"class="form-select">
+                    <option>delhi</option>
+                    <option>hyd</option>
+                    <option>telangana</option>
+                </select>
+            </div>
+        </div>
+        <div class="mb-3">
+            <lable class="form-lable"for="subscribe">subscribe</lable>
+            <div class="form-switch">
+            <input class="form-check-input"name="subscribe"type="check box"><lable class="form-check-label">yes</lable>
+            </div>
+            </div>
+            <div class="mb-3">
+                <lable class="form-lable"for="price">price range</lable>
+                <div>
+                    <input type="range"class="form-range"name="price">
+                </div>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary w-100">register</button>
+                </div>
+            </form>
+    </form>
+</div>
+        <script src="../../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+    </html>
